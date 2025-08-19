@@ -4,6 +4,7 @@ This guide will help you configure multiple GitHub accounts (personal and work) 
 
 ## Prerequisites
 
+
 - macOS with Terminal access
 - Git installed
 - GitHub accounts (personal and work)
