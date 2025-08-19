@@ -1,4 +1,4 @@
-### Instructions for setting up multiple github accounts on macOs using ssh
+# Instructions for setting up multiple github accounts on macOs using ssh
 ## Make sure to replace username and email
 
 cd ~/.ssh   
@@ -16,13 +16,13 @@ pbcopy < ~/.ssh/github-work.pub
 
 open -e ~/.ssh/config  
 
-# Your Personal GitHub Account    
+```### Your Personal GitHub Account    ```
 Host github.com-personal   
     HostName github.com       
     User git      
     IdentityFile ~/.ssh/github-personal            
       
-# Your Work GitHub Account      
+```### Your Work GitHub Account    ```    
 Host github.com-work      
     HostName github.com      
     User git      
